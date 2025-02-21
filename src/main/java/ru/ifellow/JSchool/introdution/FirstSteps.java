@@ -83,11 +83,12 @@ public class FirstSteps {
 
     public static int min(int[] array){
 
-        int minValue = array[0];
 
         if (array.length == 0) {
             return Integer.MAX_VALUE;
         }
+
+        int minValue = array[0];
 
         for (int num : array) {
             if (num < minValue) {
@@ -99,11 +100,12 @@ public class FirstSteps {
 
     public static int max(int[] array){
 
-        int maxValue = array[0];
-
         if (array.length == 0) {
             return Integer.MIN_VALUE;
         }
+
+        int maxValue = array[0];
+
         for (int num : array) {
             if (num > maxValue) {
                 maxValue = num;
